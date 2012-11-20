@@ -80,6 +80,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 
 ## Kernel Details
 TARGET_KERNEL_CONFIG := cyanogenmod_shooter_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := eabi-4.7.3
 
 # Scorpion optimizations
 TARGET_USE_SCORPION_BIONIC_OPTIMIZATION := true
